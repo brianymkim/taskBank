@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Create New Task</title>
+</head>
+<body>
+    <div class="title">
+        <h1>
+          Task Bank
+        </h1>
+      </div>
+      <div class="body">
+        <nav>
+          <div class="searchbar">
+            <form>
+              <input type="text" placeholder="Search">
+              <button type="submit" id="search">Submit</button>
+            </form>
+          </div>
+          <div class="sidebar">
+            <ul class="buttons">
+              <li>
+                <a href = "index.html">
+                  Today
+                </a>
+              </li>
+              <li>
+                <a href = "all.html">
+                  All
+                </a>
+              </li>
+              <li>
+                <a href = "completed.html">
+                  Completed
+                </a>
+              </li>
+              <li>
+                <a href = "priorities.html">
+                  Priorities
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="main">
+            <div class="createTaskForm">
+                <h1>
+                Create New Task
+                </h1>
+                <form id="taskForm">
+                  <label for="taskName">Task Name:</label>
+                  <input type="text" id="taskName" name="taskName" required><br>
+                  <label for="description">Description:</label>
+                  <textarea id="description" name="description"></textarea><br>
+                  <label for="deadline">Deadline:</label>
+                  <input type="date" id="deadline" name="deadline" required><br>
+                  <button type="submit">Create Task</button>
+                </form>
+          </div>
+        </div>
+</body>
+<!-- <script src="index.js"></script> -->
+</html>

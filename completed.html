@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>
+      Task Bank
+    </title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="title">
+      <h1>
+        Task Bank
+      </h1>
+    </div>
+    <div class="body">
+      <nav>
+        <div class="searchbar">
+          <form>
+            <input type="text" placeholder="Search">
+            <button type="submit" id="search">Submit</button>
+          </form>
+        </div>
+        <div class="sidebar">
+          <ul class="buttons">
+            <li>
+              <a href = "index.html">
+                Today
+              </a>
+            </li>
+            <li>
+              <a href = "all.html">
+                All
+              </a>
+            </li>
+            <li>
+              <a href = "completed.html">
+                Completed
+              </a>
+            </li>
+            <li>
+              <a href = "priorities.html">
+                Priorities
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="main">
+        <div class="stitle">
+          <div>
+            <h1>
+              Completed
+            </h1>
+            <div id="taskList">
+              <ul id="list"></ul>
+              <div class="task">
+                <img src="assets/task check.svg" class="check">
+                <p>Name</p>
+              </div>
+              <div class="task">
+                <img src="assets/task check.svg" class="check">
+                <p>Name</p>
+              </div>
+              <div class="task">
+                <img src="assets/task check.svg" class="check">
+                <p>Name</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="createTask">
+            <a href = "create_tasks.html" class="createNewTask"> + Create New Task
+              <!-- <button onclick="priorities_fuction" >Create New Task</button> -->
+            </a>
+          </div>
+                      
+        </div>        
+      </div>
+    </div>
+  </body>
+  <!-- <script src="index.js"></script> -->
+</html>
